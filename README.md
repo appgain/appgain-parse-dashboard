@@ -1,5 +1,20 @@
-# Parse Dashboard
-
+# AppGain Parse Dashboard V1.2.5
+**How to install a global module? 
+- npm install   
+- npm link    
+- npm adduser  
+- npm publish  
+**How to build the code?   
+- npm install -g appgain-parse-dashboard 
+- appgain-parse-dashboard 
+- How to update?      
+- change the version in the package.json file   
+- npm publish 
+** Please note that you have to update to Node 8.11.4 before using it  
+**How to Update Node?    
+- sudo npm cache clean -f   
+- sudo npm install -g n    
+- sudo n 8.11.4
 [![Greenkeeper badge](https://badges.greenkeeper.io/parse-community/parse-dashboard.svg)](https://greenkeeper.io/)
 
 [![Build Status](https://img.shields.io/travis/parse-community/parse-dashboard/master.svg?style=flat)](https://travis-ci.org/parse-community/parse-dashboard)
@@ -41,7 +56,7 @@ Parse Dashboard is a standalone dashboard for managing your Parse apps. You can 
 Install the dashboard from `npm`.
 
 ```
-npm install -g parse-dashboard
+npm install -g appgain-parse-dashboard
 ```
 
 You can launch the dashboard for an app with a single command by supplying an app ID, master key, URL, and name like this:
